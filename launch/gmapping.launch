@@ -33,7 +33,7 @@
     <param name="temporalUpdate" value="-1.0"/>
     <param name="resampleThreshold" value="0.5"/>
     <param name="particles" value="30"/> 
-    <param name="minimumScore" value="100"/> 
+    <param name="minimumScore" value="70"/> 
 
   <!--
     <param name="xmin" value="-50.0"/>
