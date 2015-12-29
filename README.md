@@ -13,6 +13,6 @@ https://www.youtube.com/watch?v=MPPoSCFpWkc
 
 
 ## Installation & Run
-* git clone this project to your catkin_src directory
-* catkin_make
+* **git clone** this project to your **catkin_ws/src** directory
+* **catkin_make**
 * **roslaunch mybot mybot.launch**
