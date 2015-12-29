@@ -1,5 +1,8 @@
 # mybot: KKuei's ROS Mobile Robot
 
+## Demo video
+https://www.youtube.com/watch?v=MPPoSCFpWkc
+
 ## Features
 * SLAM(mapping & localization)
 * Navigation & Obstacle avoidance
