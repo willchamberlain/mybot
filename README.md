@@ -1,5 +1,8 @@
 # mybot: KKuei's ROS Mobile Robot
 
+## Demo video
+https://www.youtube.com/watch?v=MPPoSCFpWkc
+
 ## Features
 * SLAM(mapping & localization)
 * Navigation & Obstacle avoidance
@@ -10,6 +13,6 @@
 
 
 ## Installation & Run
-* git clone this project to your catkin_src directory
-* catkin_make
+* **git clone** this project to your **catkin_ws/src** directory
+* **catkin_make**
 * **roslaunch mybot mybot.launch**
