@@ -7,7 +7,7 @@
 	name="mybot_xacro">
 
 
-	<xacro:property name="length_wheel" value="0.20" />
+	<xacro:property name="length_wheel" value="0.215" />
 	<xacro:property name="radius_wheel" value="0.0625" />
 	<xacro:macro name="default_inertial" params="mass">
                <inertial>
