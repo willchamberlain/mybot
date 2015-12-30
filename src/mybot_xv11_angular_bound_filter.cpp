@@ -17,7 +17,7 @@ bool my_update(const sensor_msgs::LaserScan& input_scan)
   unsigned int count = 0;
 
   //loop through the scan and truncate the beginning and the end of the scan as necessary
-  for (unsigned int i = 270; i < 360; ++i) {
+  for (unsigned int i = 210; i < 360; ++i) {
     //filtered_scan.ranges[count] = input_scan.ranges[i];
     if (input_scan.ranges[i] > 0.1)
       filtered_scan.ranges[count] = input_scan.ranges[i];
@@ -28,7 +28,7 @@ bool my_update(const sensor_msgs::LaserScan& input_scan)
     ++count;
   }
 
-  for (unsigned int i = 0; i < 90; ++i) {
+  for (unsigned int i = 0; i < 150; ++i) {
     //filtered_scan.ranges[count] = input_scan.ranges[i];
     if (input_scan.ranges[i] > 0.1)
       filtered_scan.ranges[count] = input_scan.ranges[i];
@@ -43,8 +43,8 @@ bool my_update(const sensor_msgs::LaserScan& input_scan)
   //make sure to set all the needed fields on the filtered scan
   filtered_scan.header.frame_id = input_scan.header.frame_id;
   filtered_scan.header.stamp = start_time;
-  filtered_scan.angle_min = -1.57;
-  filtered_scan.angle_max = 1.57;
+  filtered_scan.angle_min = -2.616666667;
+  filtered_scan.angle_max = 2.616666667;
   filtered_scan.angle_increment = input_scan.angle_increment;
   filtered_scan.time_increment = input_scan.time_increment;
   filtered_scan.scan_time = input_scan.scan_time;
